@@ -9,16 +9,31 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^2.1.2",
+    "@headlessui/tailwindcss": "^0.2.1",
+    "@remixicon/react": "^4.2.0",
+    "@tiptap/pm": "^2.6.6",
+    "@tiptap/react": "^2.6.6",
+    "@tiptap/starter-kit": "^2.6.6",
+    "@tremor/react": "^3.17.4",
+    "@types/formidable": "^3.4.5",
+    "dompurify": "^3.1.6",
+    "formidable": "^3.5.1",
+    "mime-types": "^2.1.35",
+    "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.5"
+    "stream": "^0.0.3"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/forms": "^0.5.7",
+    "@types/dompurify": "^3.0.5",
+    "@types/mime-types": "^2.1.4",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.9",
+    "typescript": "^5"
   }
 }
